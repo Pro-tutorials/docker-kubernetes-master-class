@@ -1,0 +1,432 @@
+# Ignore Docker images and containers
+*.log
+*.pot
+*.pid
+*.out
+*.gz
+
+# Ignore local .env files
+.env
+
+# Ignore Kubernetes configuration files
+*.yaml
+*.yml
+
+# Ignore Helm charts and rendered templates
+*.helm
+charts/
+
+# Ignore Kubernetes state files
+.kube/
+kubeconfig
+
+# Ignore minikube configuration files
+minikube/
+
+# Ignore Skaffold configuration files
+skaffold.yaml
+skaffold.yml
+
+# Ignore Kustomize configuration files
+kustomization.yaml
+kustomization.yml
+
+# Ignore Telepresence logs
+telepresence.log
+
+# Ignore Kubeconfig files
+.kubeconfig*
+
+# Ignore Kind cluster configuration files
+kind-config*
+
+# Ignore Tilt configuration files
+Tiltfile
+tilt-debug.log
+
+# Ignore k3s configuration file
+k3s.yaml
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore JetBrains IDE settings
+.idea/
+
+# Ignore Eclipse settings
+.classpath
+.project
+.settings/
+
+# Ignore NetBeans settings
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Ignore Local binary file
+# (this is for example of building things with Docker)
+build/
+
+# Ignore Windows
+Thumbs.db
+Desktop.ini
+
+# Ignore macOS
+.DS_Store
+
+# Ignore Vim swap files
+*.swp
+
+# Ignore Emacs backup files
+*~
+
+# Ignore Node.js files
+node_modules/
+
+# Ignore Python pycache
+__pycache__/
+*.pyc
+
+# Ignore Java build artifacts
+build/
+*.class
+
+# Ignore compiled Ruby files
+*.rbc
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore compiled Java files
+*.class
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore compiled TypeScript files
+*.ts
+
+# Ignore compiled CoffeeScript files
+*.coffee
+
+# Ignore compiled Dart files
+*.dart
+
+# Ignore compiled Kotlin files
+*.kotlin
+
+# Ignore compiled Swift files
+*.swift
+
+# Ignore compiled Objective-C files
+*.m
+*.mm
+
+# Ignore compiled C++ files
+*.o
+*.out
+*.exe
+*.so
+*.dylib
+
+# Ignore compiled C# files
+*.dll
+*.exe
+
+# Ignore compiled VB.NET files
+*.dll
+*.exe
+
+# Ignore compiled F# files
+*.dll
+*.exe
+
+# Ignore compiled Go files
+*.exe
+*.out
+*.test
+
+# Ignore compiled Rust files
+*.rs
+target/
+
+# Ignore compiled Scala files
+*.class
+
+# Ignore compiled Clojure files
+*.class
+
+# Ignore compiled Groovy files
+*.class
+
+# Ignore compiled PHP files
+*.php
+*.phar
+
+# Ignore compiled Ruby files
+*.class
+*.gem
+*.rbc
+*.rbo
+
+# Ignore compiled Swift files
+*.swiftdoc
+*.swiftdoc/
+
+# Ignore compiled Objective-C files
+*.dSYM/
+*.hmap/
+*.ipa
+
+# Ignore compiled C++ files
+*.slo
+*.lo
+*.o
+*.obj
+*.la
+*.a
+*.lai
+*.prl
+*.pdb
+*.idb
+
+# Ignore compiled C# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled VB.NET files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled F# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled Java files
+*.class
+*.war
+*.ear
+*.sar
+*.jar
+*.zip
+*.tar.gz
+
+# Ignore compiled Scala files
+*.class
+
+# Ignore compiled Clojure files
+*.class
+
+# Ignore compiled Groovy files
+*.class
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+*.dart.tools/
+*.pub/
+pubspec.*
+
+# Ignore compiled Go files
+*.exe
+*.test
+*.prof
+*.output
+*.trace
+*.tr
+*.cover
+*.scover
+*.cprof
+
+# Ignore compiled Rust files
+*.rlib
+*.rmeta
+
+# Ignore compiled Haskell files
+*.o
+*.hi
+
+# Ignore compiled Erlang files
+*.beam
+*.rbc
+
+# Ignore compiled Lua files
+*.luac
+
+# Ignore compiled Objective-C files
+*.dSYM/
+*.hmap/
+*.ipa
+
+# Ignore compiled C files
+*.o
+*.out
+*.exe
+
+# Ignore compiled C++ files
+*.slo
+*.lo
+*.o
+*.obj
+*.la
+*.a
+*.lai
+*.prl
+*.pdb
+*.idb
+
+# Ignore compiled C# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled VB.NET files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled F# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled Java files
+*.class
+*.war
+*.ear
+*.sar
+*.jar
+*.zip
+*.tar.gz
+
+# Ignore compiled Scala files
+*.class
+
+# Ignore compiled Clojure files
+*.class
+
+# Ignore compiled Groovy files
+*.class
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+*.dart.tools/
+*.pub/
+pubspec.*
+
+# Ignore compiled Go files
+*.exe
+*.test
+*.prof
+*.output
+*.trace
+*.tr
+*.cover
+*.scover
+*.cprof
+
+# Ignore compiled Rust files
+*.rlib
+*.rmeta
+
+# Ignore compiled Haskell files
+*.o
+*.hi
+
+# Ignore compiled Erlang files
+*.beam
+
+# Ignore compiled Lua files
+*.luac
+
+# Ignore compiled Objective-C files
+*.dSYM/
+*.hmap/
+*.ipa
+
+# Ignore compiled C files
+*.o
+*.out
+*.exe
+
+# Ignore compiled C++ files
+*.slo
+*.lo
+*.o
+*.obj
+*.la
+*.a
+*.lai
+*.prl
+*.pdb
+*.idb
+
+# Ignore compiled C# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled VB.NET files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled F# files
+*.dll
+*.exe
+*.pdb
+*.mdb
+
+# Ignore compiled Java files
+*.class
+*.war
+*.ear
+*.sar
+*.jar
+*.zip
+*.tar.gz
+
+# Ignore compiled Scala files
+*.class
+
+# Ignore compiled Clojure files
+*.class
+
+# Ignore compiled Groovy files
+*.class
+
+# Ignore compiled Dart files
+*.dart.js
+*.dart.js.map
+*.dart.tools/
+*.pub/
+pubspec.*
+
+# Ignore compiled Go files
+*.exe
+*.test
+*.prof
+*.output
+*.trace
+*.tr
+*.cover
+*.scover
+*.cprof
+
+# Ignore compiled Rust files
